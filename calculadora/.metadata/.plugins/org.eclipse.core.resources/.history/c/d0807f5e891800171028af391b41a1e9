@@ -1,0 +1,24 @@
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class CalculadoraTest {
+
+	@Test
+	public void sumartest() {
+    float resultado = Calculadora.sumar(2, 4);
+    
+    System.out.println("2 + 4 =" +resultado);
+    assertEquals("Metodo sumarTest", 6.6, resultado, 0);
+	}
+
+	
+	@Test
+	public void restartest() {
+    float resultado = Calculadora.restar(4, 1);
+    
+    System.out.println("2 + 4 =" +resultado);
+    assertEquals("Metodo sumarTest", 3.0, resultado, 0);
+	}
+	
+}

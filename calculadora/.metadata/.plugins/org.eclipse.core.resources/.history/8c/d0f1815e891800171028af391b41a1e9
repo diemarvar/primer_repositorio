@@ -1,0 +1,21 @@
+
+public class Calculadora {
+
+
+
+
+public Calculadora()
+{
+	
+}
+
+public static float sumar(float a, float b)
+{
+	return a+b;
+}
+
+public static float restar(float a, float b)
+{
+	return a-b;
+}
+}
